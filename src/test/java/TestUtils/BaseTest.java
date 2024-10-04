@@ -35,7 +35,7 @@ public class BaseTest {
 	public WebDriver initializeDriver() throws IOException
 	{
 		Properties prop = new Properties();
-		FileInputStream fis = new FileInputStream("C:\\Users\\posab\\OneDrive\\Documents\\POSABLE\\Documents\\Automation\\Interview\\ClaimHub\\ClaimHub\\src\\main\\java\\resources\\GlobalData.properties");
+		FileInputStream fis = new FileInputStream(System.getProperty("user.dir") + "/src/main/java/resources/GlobalData.properties");
 		prop.load(fis);
 		String browserName = System.getProperty("browser")!=null ? System.getProperty("browser") :prop.getProperty("browser");
 //		String browserName = prop.getProperty("browser");

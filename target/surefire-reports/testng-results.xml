@@ -2,19 +2,19 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-10-04T23:58:57 MYT" name="Suite" finished-at="2024-10-04T23:59:41 MYT" duration-ms="44572">
+  <suite started-at="2024-10-05T00:17:55 MYT" name="Suite" finished-at="2024-10-05T00:18:01 MYT" duration-ms="6301">
     <groups>
       <group name="UAT">
         <method signature="Login.LoginTest(java.util.HashMap)[pri:0, instance:Automation.ClaimHub.Login@62010f5c]" name="LoginTest" class="Automation.ClaimHub.Login"/>
       </group> <!-- UAT -->
     </groups>
-    <test started-at="2024-10-04T23:58:57 MYT" name="UAT Test Suite" finished-at="2024-10-04T23:59:41 MYT" duration-ms="44205">
+    <test started-at="2024-10-05T00:17:55 MYT" name="UAT Test Suite" finished-at="2024-10-05T00:18:01 MYT" duration-ms="5720">
       <class name="Automation.ClaimHub.Login">
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Automation.ClaimHub.Login@62010f5c]" started-at="2024-10-04T23:58:57 MYT" name="launchApplication" finished-at="2024-10-04T23:59:38 MYT" duration-ms="40908" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Automation.ClaimHub.Login@62010f5c]" started-at="2024-10-05T00:17:55 MYT" name="launchApplication" finished-at="2024-10-05T00:17:59 MYT" duration-ms="3789" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="LoginTest(java.util.HashMap)[pri:0, instance:Automation.ClaimHub.Login@62010f5c]" started-at="2024-10-04T23:59:38 MYT" name="LoginTest" data-provider="getData" finished-at="2024-10-04T23:59:39 MYT" duration-ms="1676" status="PASS">
+        <test-method signature="LoginTest(java.util.HashMap)[pri:0, instance:Automation.ClaimHub.Login@62010f5c]" started-at="2024-10-05T00:17:59 MYT" name="LoginTest" data-provider="getData" finished-at="2024-10-05T00:18:00 MYT" duration-ms="1269" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -25,13 +25,13 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Automation.ClaimHub.Login@62010f5c]" started-at="2024-10-04T23:59:39 MYT" name="tearDown" finished-at="2024-10-04T23:59:41 MYT" duration-ms="1347" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Automation.ClaimHub.Login@62010f5c]" started-at="2024-10-05T00:18:00 MYT" name="tearDown" finished-at="2024-10-05T00:18:01 MYT" duration-ms="323" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- Automation.ClaimHub.Login -->
     </test> <!-- UAT Test Suite -->
-    <test started-at="2024-10-04T23:59:41 MYT" name="Regression Test Suite" finished-at="2024-10-04T23:59:41 MYT" duration-ms="0">
+    <test started-at="2024-10-05T00:18:01 MYT" name="Regression Test Suite" finished-at="2024-10-05T00:18:01 MYT" duration-ms="0">
     </test> <!-- Regression Test Suite -->
   </suite> <!-- Suite -->
 </testng-results>
