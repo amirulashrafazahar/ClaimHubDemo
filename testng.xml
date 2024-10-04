@@ -16,5 +16,16 @@
       <class name="Automation.ClaimHub.Login"/>
     </classes>
   </test>
+  
+    <test thread-count="5" name="Regression Test Suite">
+    <groups>
+      <run>
+        <include name="Regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="Automation.ClaimHub.Login"/>
+    </classes>
+  </test>
 
 </suite>
