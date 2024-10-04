@@ -46,7 +46,7 @@ public class BaseTest {
 		ChromeOptions options = new ChromeOptions();
 		if(browserName.contains("headless"))
 		{
-		options.addArguments("headless");
+		options.addArguments("--headless=new");
 		}
 		 driver = new ChromeDriver(options);
 		
