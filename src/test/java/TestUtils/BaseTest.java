@@ -38,7 +38,6 @@ public class BaseTest {
 		FileInputStream fis = new FileInputStream(System.getProperty("user.dir") + "/src/main/java/resources/GlobalData.properties");
 		prop.load(fis);
 		String browserName = System.getProperty("browser")!=null ? System.getProperty("browser") :prop.getProperty("browser");
-//		String browserName = prop.getProperty("browser");
 		
 		if(browserName.contains("chrome"))
 		{
@@ -54,7 +53,6 @@ public class BaseTest {
 		else if (browserName.equalsIgnoreCase("firefox"))
 		{
 			WebDriverManager.firefoxdriver().setup();
-//			System.setProperty("webdriver.gecko.driver","C:\\Users\\posab\\Downloads\\geckodriver-v0.35.0-win-aarch64\\geckodriver.exe");
 			FirefoxOptions options = new FirefoxOptions();
 		    options.setBinary("C:\\Program Files\\Mozilla Firefox\\firefox.exe");
 			 driver = new FirefoxDriver();
@@ -62,7 +60,6 @@ public class BaseTest {
 		else if (browserName.equalsIgnoreCase("edge"))
 		{
 			WebDriverManager.edgedriver().setup();
-//			System.setProperty("webdriver.edge.driver","C:\\Users\\posab\\Downloads\\edgedriver_win64\\msedgedriver.exe");
 			 driver = new EdgeDriver();
 		}
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
@@ -102,7 +99,6 @@ public class BaseTest {
 	@AfterMethod(alwaysRun=true)
 	public void tearDown()
 	{
-//		driver.close();
 		driver.quit();
 	}
 
